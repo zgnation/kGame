@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/homepage/main",
+    "pages/index/main",
+    "pages/result/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#373a5b",
+    "navigationBarTitleText": "kgame",
+    "navigationBarTextStyle": "white"
+  }
+}
