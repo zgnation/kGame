@@ -374,7 +374,10 @@ function initChart(canvas, width, height) {
     2.1
   ];
 const state={
-    
-    
+  initChart,
+  initBar,
+  rightUser,
+  upData,
+  upVolumes
 }
 export default state

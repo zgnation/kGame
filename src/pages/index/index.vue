@@ -117,11 +117,9 @@ export default {
   data() {
     return {
       echarts,
-      onInit: initChart,
-      onBar: initBar,
       playDay: 0,
       day:10,
-      futureData: data[39],
+      futureData: [17507.04, 17492.93, 17480.05, 17550.7, 17025.98],
       buyBtn: 1,
       sellBtn: 1,
       overA: 0,
@@ -281,7 +279,13 @@ export default {
       let a = "a=" + this.userA.name + "&aRate=" + arate;
       let b = "b=" + this.userB.name + "&bRate=" + brate;
       return url + "?" + a + "&" + b;
-    }
+    },
+     onInit(){
+        console.log(this.$store)
+     },
+    onBar(){
+
+    },
   },
   watch: {
     playDay(d) {
